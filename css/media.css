@@ -1,0 +1,232 @@
+/* 580px for portrait phones.
+768px for tablets.
+992px for laptops.
+1200px for large devices. */
+
+
+
+@media all and (max-width: 592px) {
+
+    main {
+        padding-top: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .head_left {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #free_gluten {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #free_gluten i,
+    #free_gluten h2 {
+        font-size: 30px;
+    }
+
+    .head .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about_Jess,
+    .galery,
+    .posts_items,
+    .head_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_Jess p {
+        font-size: 13px;
+        color: #422f28;
+        font-style: italic;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 2px;
+        line-height: 15px;
+    }
+}
+
+@media all and (min-width: 580px) and (max-width: 767px) {
+
+    main {
+        padding-top: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .head_left {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #free_gluten {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #free_gluten i,
+    #free_gluten h2 {
+        font-size: 30px;
+    }
+
+    .head .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about_Jess,
+    .galery,
+    .posts_items,
+    .head_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_Jess p {
+        font-size: 15px;
+        color: #422f28;
+        font-style: italic;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 2px;
+        line-height: 16px;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+    main {
+        padding-top: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .head_left {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #free_gluten {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #free_gluten i,
+    #free_gluten h2 {
+        font-size: 30px;
+    }
+
+    .head .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about_Jess,
+    .galery,
+    .posts_items,
+    .head_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_Jess p {
+        font-size: 20px;
+        color: #422f28;
+        font-style: italic;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+}
+
+@media all and (min-width: 993px) and (max-width: 1200px) {
+    main {
+        padding-top: 40px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .head_left {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #free_gluten {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #free_gluten i,
+    #free_gluten h2 {
+        font-size: 30px;
+    }
+
+    .head .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .about_Jess,
+    .galery,
+    .posts_items,
+    .head_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_Jess p {
+        font-size: 20px;
+        color: #422f28;
+        font-style: italic;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 2px;
+        line-height: 24px;
+    }
+
+}
+
+@media all and (min-width: 1201px) and (max-width: 1500px) {
+
+    .galery,
+    .posts_items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 50px 70px;
+        grid-template-areas:
+            ". . .";
+        padding: 50px;
+    }
+
+    .about_Jess p {
+        font-size: 15px;
+        color: #422f28;
+        font-style: italic;
+        text-align: center;
+        margin: 30px;
+        letter-spacing: 2px;
+        line-height: 20px;
+    }
+
+};

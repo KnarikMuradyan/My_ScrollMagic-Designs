@@ -1,0 +1,330 @@
+/* HEADER START */
+header {
+    padding: 10px;
+    background-color: #422f28;
+    color: bisque;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+header .logo h1 {
+    font-size: 60px;
+    font-family: monospace;
+    letter-spacing: 15px;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header .menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+
+}
+
+a:hover {
+    background-color: bisque;
+    color: #795548;
+    border-radius: 40px;
+}
+
+.search_input label {
+    font-size: 15px;
+}
+
+
+/* HEADER END */
+
+
+/* MAIN START */
+main {
+    padding-top: 90px;
+}
+
+.head .container {
+    display: grid;
+    grid-template-columns: 0.9fr 0.7fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: ". .";
+    width: 100%;
+}
+
+.head_left {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.head_right {
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.head_right .head_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.item {
+    position: relative;
+}
+
+.item::after {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 228, 196, 0.321);
+    position: absolute;
+    transition: all 2.5s linear;
+    opacity: 1;
+}
+
+.item:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.item5::after {
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+}
+
+.item5:hover::after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.head_text {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    color: #422f28;
+}
+
+.head_text h2 {
+    font-size: 35px;
+    color: #422f28;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* free gluten start */
+#free_gluten {
+    padding: 40px;
+    background-color: #B08968;
+    color: #422f28;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-spacing: 30px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* free gluten end */
+
+/* blog posts start */
+
+
+.about_Jess p,
+.blog_posts p {
+    font-size: 20px;
+    color: #422f28;
+    font-style: italic;
+    text-align: center;
+    margin: 30px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+.blog_posts i {
+    margin: 10px;
+}
+
+.posts_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px 70px;
+    grid-template-areas:
+        ". . .";
+    padding: 50px;
+}
+
+.post_text h4 {
+    font-size: 25px;
+    color: #422f28;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.post_item {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 30px 20px 20px rgba(162, 162, 162, 0.611);
+}
+
+span {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* blog posts end */
+
+#bg {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/6.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* aboutJESS starts */
+.about_Jess {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px 50px;
+    grid-template-areas:
+        ". . .";
+    margin: 70px;
+}
+
+.about_Jess .post_item {
+    height: 500px;
+    width: 100%;
+}
+
+.about_img,
+.about_img_second {
+    width: 100%;
+    height: 900px;
+    background-image: url('../images/5.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+}
+
+/* aboutJESS ends*/
+
+/* signup starts */
+
+.sign_up {
+    background: #B08968;
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    padding: 30px 0;
+}
+
+input[type="email"] {
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #422f28;
+}
+
+input[type="submit"]:hover {
+    background: #422f28;
+    color: bisque
+}
+
+/* signup ends */
+/* happy people starts */
+
+.happy_people {
+    margin: 50px;
+}
+
+.galery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.galery .images {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 40px;
+}
+
+.galery .images img {
+    transition: all 2s;
+    opacity: 0.5;
+}
+
+.galery .images img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+}
+
+.happy_text {
+    justify-content: center;
+    text-align: start;
+    font-size: 20px;
+    color: #422f28;
+    font-style: italic;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    line-height: 24px;
+    width: 50% !important;
+}
+
+.happy_text p {
+    margin: 40px;
+    padding: 40px;
+}
+
+.about_img_second {
+    background-image: url('../images/enjoy5.jpeg');
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+/* happy people ends */
