@@ -12,6 +12,8 @@ header .logo h1 {
     font-size: 60px;
     font-family: monospace;
     letter-spacing: 15px;
+    animation:rotateInDownLeft;
+  animation-duration: 1s;
 
 }
 

@@ -5,7 +5,7 @@
 
 
 
-@media all and (max-width: 592px) {
+@media all and (max-width: 559px) {
 
     main {
         padding-top: 40px;
@@ -16,12 +16,6 @@
     .head_left {
         margin: 0 auto;
         width: 80%;
-    }
-
-    #free_gluten {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     #free_gluten i,
@@ -38,7 +32,7 @@
     .about_Jess,
     .galery,
     .posts_items,
-    .head_right {
+    .head_right, #free_gluten {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -55,7 +49,7 @@
     }
 }
 
-@media all and (min-width: 580px) and (max-width: 767px) {
+@media all and (min-width:600px) and (max-width: 767px) {
 
     main {
         padding-top: 40px;
@@ -66,12 +60,6 @@
     .head_left {
         margin: 0 auto;
         width: 80%;
-    }
-
-    #free_gluten {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     #free_gluten i,
@@ -88,7 +76,7 @@
     .about_Jess,
     .galery,
     .posts_items,
-    .head_right {
+    .head_right ,#free_gluten {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -119,12 +107,6 @@
         width: 80%;
     }
 
-    #free_gluten {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
     #free_gluten i,
     #free_gluten h2 {
         font-size: 30px;
@@ -139,7 +121,7 @@
     .about_Jess,
     .galery,
     .posts_items,
-    .head_right {
+    .head_right,#free_gluten {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -168,11 +150,6 @@
         width: 80%;
     }
 
-    #free_gluten {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     #free_gluten i,
     #free_gluten h2 {
@@ -188,7 +165,7 @@
     .about_Jess,
     .galery,
     .posts_items,
-    .head_right {
+    .head_right,#free_gluten {
         display: flex;
         flex-direction: column;
         justify-content: center;
